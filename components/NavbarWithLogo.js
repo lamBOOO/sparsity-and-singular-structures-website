@@ -13,10 +13,11 @@ export default function NavbarWithLogo() {
           <Navbar.Brand href="/">
             <img
               alt=""
-              // src="logo_notext.pdf"
-              src="/rwth_sfb1481_rgb.png"
+              // src="logo.svg"
+              // src="/rwth_sfb1481_rgb.png"
+              src="/logo_text_rwth.png"
               // src="/favicon.ico"
-              width="180"
+              width="300"
               height="40"
               overflow="10"
               className="d-inline-block align-top img-fluid"
