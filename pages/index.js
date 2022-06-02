@@ -1,34 +1,14 @@
-import Head from 'next/head'
-import Image from 'next/image'
-// import styles from '../styles/Home.module.css'
-
-import App from '../components/NavbarWithLogo';
-
-import 'bootstrap/dist/css/bootstrap.min.css';
-import 'bootstrap/dist/css/bootstrap.css';
-
-import Row from 'react-bootstrap/Row'
-import Col from 'react-bootstrap/Col'
-import Card from 'react-bootstrap/Card'
-import CardGroup from 'react-bootstrap/CardGroup'
-import Button from 'react-bootstrap/Button'
-import Placeholder from 'react-bootstrap/Placeholder'
-import Navbar from 'react-bootstrap/Navbar'
-import Container from 'react-bootstrap/Container'
-import Nav from 'react-bootstrap/Nav'
-import NavDropdown from 'react-bootstrap/NavDropdown'
 import NavbarWithLogo from '../components/NavbarWithLogo';
 
 export default function Home() {
   return (
-
     <div>
-
       <NavbarWithLogo></NavbarWithLogo>
 
 
       <div className="px-4 py-5 my-5 text-center">
         <img className="d-block mx-auto mb-4" src="/logo.svg" alt="" width="100" height="100" />
+        <img className="d-block mx-auto mb-4 img-fluid" src="/dfg_logo_schriftzug_blau_foerderung_4c.jpg" alt="" width="200" height="100" />
         <h1 className="display-5 fw-bold">Sparsity and Singular Structures</h1>
         <div className="col-lg-6 mx-auto">
 
@@ -48,15 +28,15 @@ export default function Home() {
       </div>
 
       <div className="container px-4 py-5" id="custom-cards">
-        <h2 className="pb-2 border-bottom">Custom cards</h2>
+        <h2 className="pb-2 border-bottom">Projects</h2>
 
         <div className="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
           <div className="col">
             <div className="card card-cover h-100 overflow-hidden text-white bg-dark rounded-4 shadow-lg" style={{ backgroundImage: "url('unsplash-photo-1.jpg')" }}>
               <div className="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-                <h2 className="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">
-                  Short title, long jacket
-                </h2>
+                <h4 className="pt-5 mt-0 mb-4">
+                Gradient descent for deep neural network learning
+                </h4>
                 <ul className="d-flex list-unstyled mt-auto">
                   <li className="me-auto">
                     <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32" className="rounded-circle border border-white" />

@@ -1,15 +1,14 @@
-// import '../styles/globals.css'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/css/bootstrap.css';
 
-import Script from "next/script"
+import { useEffect } from "react";
 
 function MyApp({ Component, pageProps }) {
+  useEffect(() => {
+    import("bootstrap/dist/js/bootstrap");
+  }, []);
   return (
-    <>
-    <Script
-      src="holder.js"
-    />
     <Component {...pageProps} />
-    </>
   );
 }
 
