@@ -3,7 +3,7 @@ import { useRouter } from "next/router";
 
 const navigation = [
   { name: "Home", href: "/" },
-  { name: "Projects", href: "/projects" },
+  { name: "Projects", href: "#projects" },
   { name: "People", href: "/people" },
   { name: "Publications", href: "/publications" },
   { name: "Contact", href: "/contact" },
