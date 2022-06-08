@@ -17,7 +17,7 @@ export default function NavbarWithLogo() {
   const router = useRouter();
 
   return (
-    <nav className="navbar navbar-expand-md bg-light">
+    <nav className="navbar navbar-expand-lg bg-light">
       <div className="container">
         <a className="navbar-brand d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none" href="#">
           <img src="/logo_text_rwth.png" alt="" height="60" className="d-inline-block align-text-top"></img>
