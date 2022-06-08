@@ -28,8 +28,8 @@ export default function NavbarWithLogo() {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
           {navigation.map((item) => (
-            <li className="nav-item">
-              <Link aria-current="page" href={item.href} key={item.name}>
+            <li className="nav-item" key={item.name}>
+              <Link aria-current="page" href={item.href}>
                 <a className={classNames("nav-link", router.route === item.href ? "active" : "")} >{item.name}</a>
               </Link>
             </li>
